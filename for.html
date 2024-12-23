@@ -12,6 +12,101 @@
   </head>
   <body>
     <div
+      class="container-fluid"
+      style="
+        background-image: url(/Img/header\ img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 120vh;
+      "
+    >
+      <nav
+        class="navbar navbar-expand-lg navbar-light shadow-sm"
+        style="
+          z-index: 1;
+          position: fixed;
+          width: 100%;
+          background-color: rgba(156, 156, 156, 0.5);
+        "
+      >
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="/Img/logo.png"
+              alt="Logo"
+              class="d-inline-block align-text-top"
+              style="height: 40px"
+            />
+          </a>
+
+          <!-- Toggle button for mobile view -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu Items -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#section1"
+                  style="padding-right: 50px"
+                  >What e-bike ?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2" style="padding-right: 50px"
+                  >Why LECTRIC ?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3" style="padding-right: 50px"
+                  >Feature and accessory</a
+                >
+              </li>
+            </ul>
+            <!-- Pre-Order Button -->
+            <a href="#" class="btn btn-primary ms-3">Pre-Order</a>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="container text-light"
+        style="position: absolute; top: 50%; margin-left: 5%"
+      >
+        <h1>
+          Riding into the future: <br />
+          Clean, powerful, and sustainable
+        </h1>
+        <p>
+          "Electric motorbikes represent the perfect harmony of innovation,<br />
+          sustainability, and performance, offering a thrilling ride powered by
+          <br />
+          clean energy, advanced technology,and a vision for a greener, more
+          <br />
+          connected future of transportation."
+        </p>
+        <div class="container mt-3">
+          <form>
+            <button type="submit" class="btn btn-primary">Lean more</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div
+      id="section1"
       class="container-fluid text-black min-vh-90 d-flex justify-content-center align-items-center"
     >
       <div class="text-center pt-3">
@@ -39,12 +134,13 @@
       </div>
     </div>
     <div
+      id="section2"
       class="container-fluid h-auto text-black min-vh-90 d-flex justify-content-center align-items-centerm pt-5 jom"
     >
       <div class="text-center pt-3">
         <h1>
           <a
-            href="https://example.com"
+            href="https://example.co"
             class="text-decoration-none hover #284560"
             >Why</a
           >
@@ -74,9 +170,11 @@
             width: 90%;
           "
         ></div>
-        <div class="container my-5">
+        <div id="section3" class="container my-5">
+          <h1>Feature</h1>
           <div class="d-flex justify-content-between flex-wrap">
             <!-- Box 1 -->
+
             <div
               class="d-flex flex-column justify-content-between align-items-center"
             >
@@ -117,8 +215,7 @@
               <p class="text-center">
                 An all-new color display<br />
                 featuring a USB-A port adds an<br />
-                aesthetic look while offering <br />clear and concise
-                information.
+                aesthetic look while offering <br />clear and concise.
               </p>
             </div>
             <!-- Box 3 -->
@@ -140,8 +237,7 @@
                 The enclosed gearbox is <br />weather-sealed and easily
                 paired<br />
                 with the Pinion Smart.<br />Shift app, allowing riders <br />to
-                pre-select gears for <br />
-                effortless auto-shifts.
+                pre-select gears.
               </p>
             </div>
             <!-- Box 4 -->
@@ -151,7 +247,7 @@
               <div
                 class="container"
                 style="
-                  background-image: url('/Img/ONE-features-display.webp');
+                  background-image: url('/Img/ONE-features-smart.shift.webp');
                   background-size: contain;
                   background-position: center;
                   background-repeat: no-repeat;
@@ -160,17 +256,208 @@
                 "
               ></div>
               <p class="text-center">
-                This automotive-grade belt <br />
-                is carbon fiber-reinforced and <br />nearly maintenance-free
-                providing <br />a chainless drivetrain that's clean,<br />
-                quiet, smooth, and strong.
+                Sutto motor with 1310W of <br />peak power combined with our
+                <br />new Stealth M24 technology delivers<br />
+                a 400% quieter motor* built <br />for the This automotive-grade
+                belt .
               </p>
+            </div>
+          </div>
+        </div>
+        <div class="container my-5">
+          <h1 class="text-center mb-4">Pricing</h1>
+          <div class="d-flex justify-content-center gap-5 g">
+            <!-- Box 1 -->
+            <div
+              class="d-flex flex-column align-items-center"
+              style="height: 200px; width: 20%"
+            >
+              <span class="guidance--e-bike-1"></span>
+              <p class="text-center m-0">
+                Lithium Battery <br />
+                1000cycles of charge
+              </p>
+            </div>
+            <!-- Box 2 -->
+            <div
+              class="d-flex flex-column align-items-center"
+              style="height: 200px; width: 20%"
+            >
+              <span class="entypo--battery"></span>
+              <p class="text-center m-0">
+                Range Battery <br />
+                40km average
+              </p>
+            </div>
+            <!-- Box 3 -->
+            <div
+              class="d-flex flex-column align-items-center"
+              style="height: 200px; width: 20%"
+            >
+              <span class="icon-park-outline--speed-one"></span>
+              <p class="text-center m-0">
+                Speed <br />
+                40km/h
+              </p>
+            </div>
+          </div>
+          <div class="container my-5">
+            <h1 class="text-center mb-lg-5">
+              When you buy a LECTRIC, you’re investing in:
+            </h1>
+            <div class="d-flex justify-content-center gap-5 g">
+              <!-- Box 1 -->
+              <div
+                class="d-flex flex-column align-items-center"
+                style="height: 200px; width: 20%"
+              >
+                <span class="flowbite--award-outline"></span>
+                <p class="text-center m-0">The peace of an industry</p>
+              </div>
+              <!-- Box 2 -->
+              <div
+                class="d-flex flex-column align-items-center"
+                style="height: 200px; width: 20%"
+              >
+                <span class="mdi--company"></span>
+                <p class="text-center m-0">Local company</p>
+              </div>
+              <!-- Box 3 -->
+              <div
+                class="d-flex flex-column align-items-center"
+                style="height: 200px; width: 20%"
+              >
+                <span
+                  class="tdesign--undertake-environment-protection-filled"
+                ></span>
+                <p class="text-center m-0">Friendly customer care that</p>
+              </div>
+            </div>
+          </div>
+          <h1 class="text-center">Accessory</h1>
+          <div
+            class="container-fluid text-light p-4 d-flex align-items-center mx-auto"
+          >
+            <div
+              class="product-list-container position-relative overflow-auto text-nowrap"
+            >
+              <div class="product-list d-flex flex-row">
+                <!-- Product Cards -->
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/acc.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">45$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/acc2.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">35$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/add acc3.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">45$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/acc3.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">45$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/acc4.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">45$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/add acc.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">45$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/add acc2.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">45$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-card bg-white text-dark shadow rounded p-3">
+                  <img src="/Img/add acc4.webp" alt="Product Image" />
+                  <div class="product-info">
+                    <p class="text-danger">45$</p>
+                    <div class="container mt-3">
+                      <form>
+                        <button type="submit" class="btn btn-primary">
+                          Add
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Scroll Icon -->
+            <div class="scroll-icon ms-4">
+              &#8594;
+              <!-- Example Scroll Arrow -->
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
