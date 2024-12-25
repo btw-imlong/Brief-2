@@ -3,7 +3,465 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bootstrap Example</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/second.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div
+        class="container-fluid imgbosnh"
+        style="
+          background-image: url(/Img/header\ img.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 120vh;
+        "
+      >
+        <nav
+          class="navbar navbar-expand-lg navbar-light shadow-sm"
+          style="
+            z-index: 1;
+            position: fixed;
+            width: 100%;
+            background-color: rgba(95, 95, 95, 0.699);
+          "
+        >
+          <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+              <img
+                src="/Img/logo.png"
+                alt="Logo"
+                class="d-inline-block align-text-top"
+                style="height: 40px"
+              />
+            </a>
+
+            <!-- Toggle button for mobile view -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#section1"
+                    style="padding-right: 50px"
+                    >What e-bike ?</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#section2"
+                    style="padding-right: 50px"
+                    >Why LECTRIC ?</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#section3"
+                    style="padding-right: 50px"
+                    >Feature and accessory</a
+                  >
+                </li>
+              </ul>
+              <!-- Pre-Order Button -->
+              <a href="#section4" class="btn btn-primary ms-3">Pre-Order</a>
+            </div>
+          </div>
+        </nav>
+        <div
+          class="container text-light"
+          style="position: absolute; top: 50%; margin-left: 5%"
+        >
+          <h1 class="fs-4">
+            Riding into the future: <br />
+            Clean, powerful, and sustainable
+          </h1>
+          <p>
+            "Electric motorbikes represent the perfect harmony of innovation,<br />
+            sustainability, and performance, offering a thrilling ride powered
+            by
+            <br />
+            clean energy, advanced technology,and a vision for a greener, more
+            <br />
+            connected future of transportation."
+          </p>
+          <div class="container mt-3">
+            <form>
+              <button type="submit" class="btn btn-primary">Lean more</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <div
+          id="section1"
+          class="container-fluid text-black min-vh-90 d-flex justify-content-center align-items-center"
+        >
+          <div class="text-center pt-3">
+            <h1>
+              Why
+              <a
+                href="https://example.com"
+                class="text-decoration-none hover #284560"
+                >e-bike</a
+              >
+              is goods ?
+            </h1>
+            <p class="lead mx-auto lh-lg fs-6" style="width: 60%">
+              Electric motorbikes are eco-friendly with zero emissions,
+              cost-heffective with low charging and maintenance costs, and
+              provide a quiet, smooth ride. They are easy to charge, require
+              less maintenance, and come with modern smart features, making them
+              a convenient and innovative transportation option. adjustment.
+            </p>
+            <button class="btn btn-danger mt-3">Learn more</button>
+
+            <div class="container" style="width: 60%; margin: auto">
+              <img
+                src="/Img/page 2.webp"
+                class="img-fluid imgbosnh"
+                alt="Image"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          id="section2"
+          class="container-fluid h-auto text-black min-vh-90 d-flex justify-content-center align-items-centerm pt-5 jom"
+        >
+          <div class="text-center pt-3">
+            <h1>
+              <a
+                href="https://example.co"
+                class="text-decoration-none hover #284560"
+                >Why</a
+              >
+              LECTRICE ONE ?
+            </h1>
+            <p
+              class="lead mx-auto lh-lg pt-3 fs-6 forme"
+              style="width: 70%; margin-bottom: -250px"
+            >
+              The Lectric ONE is where unparalleled creativity and world-class
+              automotive technology converge to create a maintenance-free and
+              truly effortless commute. A symphony of high-performance
+              componentry from the smart shifting Pinion gearbox and the Gates
+              Carbon Drive Belt orchestrates a masterpiece - shaping an eBike
+              unlike any other. An aerodynamic frame, color display, and city
+              tires take this riding experience to the next level while
+              hydraulic brakes, brake-activated taillights, and reflective
+              strips offer safety beyond compare.
+            </p>
+            <div
+              class="mx-auto imgbosnh2"
+              style="
+                background-image: url('/Img/page_4-removebg-preview.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: 600px;
+                width: 90%;
+              "
+            ></div>
+            <h1>Feature</h1>
+            <div id="section3" class="row row-cols-1 row-cols-md-4 g-4 mb-5">
+              <div class="col">
+                <div class="">
+                  <div
+                    class="container"
+                    style="
+                      background-image: url('/Img/ONE-features-display.webp');
+                      background-size: contain;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      height: 200px;
+                      width: 170px;
+                    "
+                  ></div>
+                  <div class="card-body">
+                    <p class="card-text fs-6">
+                      This automotive-grade belt is carbon fiber-reinforced and
+                      nearly maintenance-free providing a chainless drivetrain
+                      that's clean, quiet, smooth, and strong.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <div
+                    class="container"
+                    style="
+                      background-image: url('/Img/ONE-features-gates.webp');
+                      background-size: contain;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      height: 200px;
+                      width: 170px;
+                    "
+                  ></div>
+                  <div class="card-body">
+                    <p class="card-text fs-6">
+                      This automotive-grade belt is carbon fiber-reinforced and
+                      nearly maintenance-free providing a chainless drivetrain
+                      that's clean, quiet, smooth, and strong.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <div
+                    class="container"
+                    style="
+                      background-image: url('/Img/ONE-features-gates.webp');
+                      background-size: contain;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      height: 200px;
+                      width: 170px;
+                    "
+                  ></div>
+                  <div class="card-body">
+                    <p class="card-text fs-6">
+                      This automotive-grade belt is carbon fiber-reinforced and
+                      nearly maintenance-free providing a chainless drivetrain
+                      that's clean, quiet, smooth, and strong.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <div
+                    class="container"
+                    style="
+                      background-image: url('/Img/ONE-features-display.webp');
+                      background-size: contain;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      height: 200px;
+                      width: 170px;
+                    "
+                  ></div>
+                  <div class="card-body">
+                    <p class="card-text fs-6">
+                      This automotive-grade belt is carbon fiber-reinforced and
+                      nearly maintenance-free providing a chainless drivetrain
+                      that's clean, quiet, smooth, and strong.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h1>Pricing</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+              <div class="col">
+                <div class="">
+                  <span class="guidance--e-bike-1"></span>
+                  <div class="card-body">
+                    <p class="card-text mt-3 fs-6">
+                      Lithium Battery <br />1000cycles of charge
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <span class="clarity--battery-solid"></span>
+                  <div class="card-body">
+                    <p class="card-text mt-3 fs-6">
+                      Range Battery <br />
+                      40km average
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <span class="line-md--speed-loop"></span>
+                  <div class="card-body">
+                    <p class="card-text mt-3 fs-6">
+                      Speed <br />
+                      40km/h
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+              <div class="col">
+                <div class="">
+                  <span class="basil--award-outline"></span>
+                  <div class="card-body">
+                    <p class="card-text mt-3 fs-6">The peace of an industry</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <span class="mdi--company"></span>
+                  <div class="card-body">
+                    <p class="card-text mt-3 fs-6">Local company</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <span
+                    class="tdesign--undertake-environment-protection-filled"
+                  ></span>
+                  <div class="card-body">
+                    <p class="card-text mt-3 fs-6">
+                      Friendly customer care that
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container py-4 fs-6">
+          <!-- Product List Container -->
+          <div class="product-list-container position-relative overflow-auto">
+            <div class="product-list">
+              <!-- Product Cards -->
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/add acc.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>45$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/add acc2.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>35$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/add acc3.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>45$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/add acc4.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>45$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/acc.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>50$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/acc2.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>60$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/acc3.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>75$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+              <div class="product-card bg-white text-dark shadow rounded p-3">
+                <img
+                  src="/Img/acc4.webp"
+                  alt="Product Image"
+                  class="img-fluid"
+                />
+                <div class="product-info">
+                  <p>80$</p>
+                  <button class="btn btn-primary btn-sm mt-2">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
