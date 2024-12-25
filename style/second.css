@@ -167,7 +167,12 @@ html {
   cursor: pointer;
   margin-left: 20px;
 }
-
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
 /* Responsive Layout: Adjusts Number of Columns Based on Screen Size */
 @media (max-width: 1200px) {
   .imgbosnh {
@@ -196,7 +201,9 @@ html {
     margin-top: -300px;
     margin-bottom: -180px;
   }
-
+  .foranh {
+    width: 100%;
+  }
   .product-card {
     width: 130px; /* Even smaller width for mobile screens */
     height: 200px; /* Adjust height for small screens */
